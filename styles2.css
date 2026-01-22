@@ -1,0 +1,279 @@
+ /* Generalidades */
+  body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 0.7em;
+    color: #666;
+  }
+	
+  #contenido {
+    width:60em;
+  	margin-top: 0em;
+  	margin-bottom: 3em;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align:left;  
+	}	
+
+	.t1{
+	  font-family: arial, verdana, helvetica, sans-serif;
+  	font-size: 1.5em;
+  	font-weight: bold;
+  	color: black;
+  	clear: both;
+  	text-align: right;
+	background-color: orange;
+	}
+	
+	.t2{	
+	  font-size: 1.2em;
+	  font-weight: bold;
+		color: black;
+		background-color: #808000;
+	  padding: 0.3em;
+	  background-color: orange;
+	}
+	
+	.t3{
+	  font-size: 1.2em;
+	  font-weight: bold;
+		color: black;
+		background-color: orange;
+	}
+
+	
+	
+/*Cesta de la compra*/
+	
+	#articulos {
+     clear:both;	
+	}
+	
+	#tabla_compra {
+	  width: 60em;
+	  font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 1em;
+	}
+	
+	#tabla_compra td:first-child img {
+  		float: left;
+  		margin-right: 1em;
+	}
+
+	#tabla_compra td:first-child p {
+  		margin: 0 0 0.5em 0;
+  		padding: 0;
+	}
+
+	#tabla_compra td:nth-child(2), #tabla_compra td:nth-child(4) {
+  		text-align: left;
+  		white-space: nowrap;
+	}
+
+	#tabla_compra td:nth-child(3) {
+  		text-align: center;
+	}
+
+	#total th, #total td {
+  		padding-top: 0.5em;
+  		border-top: 1px solid #ccc;
+	}
+
+
+	#tabla_compra td:first-child {
+  		vertical-align: top;
+ 		width: 30em;
+	}
+	
+	#conceptos th {
+		background-color: #f0f0f0;
+		border: 1px solid #ccc;
+		padding: 0.5em;
+		text-align: left;
+	}
+	
+	#total td{
+	  padding-top: 0.5em;
+		border-top: 1px solid #ccc;
+	}
+	
+	#info_en{
+	  font-size: 1.2em;
+	  text-align: right;
+	}
+
+   #tabla_compra td input {
+     margin: 0; padding: 0; 
+     text-align: right;  
+    }
+	
+   tr.producto {
+     vertical-align:middle;
+	}
+
+	#tabla_compra label {
+  		position: absolute;
+  		left: -9999px;
+	}
+
+    #tabla_compra input[type="number"] {
+        width: 5em;
+        font-size: 1em;
+        padding: 0.1em;
+        text-align: right;
+    }
+
+
+	 
+/*Datos de facturación (formulario)*/	
+	
+	#tabladatos {
+	  width:60em;
+	  margin-top: 1.1em;	
+	}
+	
+	.info{
+		color:  #000;	
+	  background-color: #EEF6FF;
+		border: 1px solid #aaa;
+		padding: 0.5em;
+		margin: 0em 0.5em 0em 0.5em;
+	}
+	
+	.i{
+	  color: #fff;
+		background-color: #c00;		
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: 0.1em 0.6em 0.1em 0.6em;
+		margin-right: 0.6em;
+	}
+  
+  
+	#observaciones{	
+	  clear: both; 
+		padding-top: 2em;
+  }
+	
+	.obligatorio{
+	  color: #c00;
+	}
+	
+	.campo_form{
+	  margin-top: 0.5em;
+	}
+	
+  .campo_form label{
+     padding-left: 1em;
+     padding-right: 1em;
+     display: block;
+     width: 10em;
+     float: left;
+     text-align: right;
+  }
+	
+	#submit{
+	  text-align: right;	  
+	}
+
+
+   #lista_promociones{
+     margin-top: 1em;
+   }
+
+   
+   .grupo_check{
+     float:left; 
+     margin-right:5em;   
+   }
+   
+   #div_captcha{
+     clear: both; 
+     text-align: center;
+     padding-top: 20px;
+   }
+
+   #div_captcha img{
+     vertical-align:middle;
+   }
+   
+   #div_captcha input{
+     vertical-align:middle;
+   }
+
+
+/*Garantias y pie de pagina*/
+
+
+	#garantias{
+	  text-align: left;
+	}	
+
+	.lista{
+	  padding-left: 2em;
+	}	
+	
+	#pie{
+	  border-top: 3px solid #ccc;
+		padding: 1em;
+		text-align: center;
+	}
+
+/*Cabecera*/
+
+	#logo{
+	  background-color: #f0f0f0;
+		border: 1px solid #ccc;
+		padding: 1em 2em 1em 2em;
+		font-size: 1em;
+		}
+	
+	#mis{
+	  font-family: arial, helvetica, sans-serif;
+	  font-weight: bold;
+	  font-size: 3em;
+		color: #c00;
+	}
+	
+	#libros{
+	  font-family: arial, helvetica, sans-serif;
+		font-weight: bold;
+	  font-size: 3em;
+		color: #000;
+	}
+
+  #pasos {
+    text-align:center;  
+  }
+
+  #pasos strong{
+    font-size: 1.2em;
+    margin-right: 5px;
+    font-variant:small-caps; 
+    vertical-align: middle;
+  }
+
+  #pasos img{
+    border: 0; 
+    vertical-align: middle;
+  }	
+	
+  #imprimir {
+    float:left
+  }
+
+  #imprimir img{
+    border: 0; 
+    vertical-align: middle;
+    margin-right: 6px;    
+  }	
+	
+  #ayuda{
+    float:right;
+    margin-bottom: 6px;	
+  }
+  
+  #ayuda img{
+    border:0;    
+    cursor:pointer;  
+    vertical-align: middle;  
+  }
